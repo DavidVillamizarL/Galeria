@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(151, 151, 151);
+}
+
+main{
+    max-width: 1200px;
+    background-color: white;
+    color: aliceblue;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 3.9%;
+}
+
+.card{
+    display: inline-block;
+    height: 380px;
+    max-width: 330px;
+    margin: 10px;
+    margin-top: 25px;
+    transition: 300ms;
+    padding: 13px;
+    background-color: black;
+    border-radius: 5%;
+
+}
+
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje2{
+    height: 248px;
+    width: 200px;
+    background: url(characters/15Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje3{
+    height: 280px;
+    width: 200px;
+    background: url(characters/17_Artwork.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -40px;
+    /* margin-bottom: 5px; */
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje4{
+    height: 280px;
+    width: 200px;
+    background: url(characters/Android19.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -35px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+.imagen_personaje{
+    height: 248px;
+    width: 200px;
+    background: url(characters/14Dokkan.webp);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    transition: 300ms;
+    filter: drop-shadow(5px -4px 10px #000);
+}
+h2{
+    margin-bottom: 6px;
+}
+
