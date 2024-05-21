@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
+    margin: 0 auto;
 }
 
 body{
@@ -30,231 +31,96 @@ main{
     margin-top: 25px;
     transition: 300ms;
     padding: 13px;
-    background-color: black;
+    background-color: rgb(139, 139, 139);
     border-radius: 5%;
 
 }
 
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
+img{
+    display: block;
     margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+    height: 250px;
+    margin-top: -20px;
+
 }
-.imagen_personaje2{
-    height: 248px;
-    width: 200px;
-    background: url(characters/15Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.RR_19{
+    height: 240px;
+    margin-top: 2px;
 }
-.imagen_personaje3{
-    height: 280px;
-    width: 200px;
-    background: url(characters/17_Artwork.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -40px;
-    /* margin-bottom: 5px; */
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.RR_13{
+    margin-bottom: 11px;
+    padding-top: 10px;
 }
-.imagen_personaje4{
-    height: 280px;
-    width: 200px;
-    background: url(characters/Android19.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -35px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.RR_16{
+    margin-bottom: 11px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.bills{
+    height: 240px;
+    margin-top: 1px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.bulma {
+    margin-top: 1px;
+    height: 240px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.buu{
+    height: 240px;
+    margin-top: 2px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.cell{
+    padding-top: 10px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.Milk{
+    padding-top: 10px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.Namek{
+    padding-top: 10px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.dodo{
+    padding-top: 10px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.Freezer{
+    padding-top: 10px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
+
+.ginyu{
+    padding-top: 10px;
 }
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
-}
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
-}
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
-}
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
-}
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
-}
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
-}
-.imagen_personaje{
-    height: 248px;
-    width: 200px;
-    background: url(characters/14Dokkan.webp);
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 5px;
-    transition: 300ms;
-    filter: drop-shadow(5px -4px 10px #000);
-}
+
+
+
+
+
+
 h2{
     margin-bottom: 6px;
+}
+
+.card:hover{
+    height: 450px;
+    transition: 300ms;
+}
+
+h2:hover{
+   
+    font-size: 30px;
+    transition: 300ms;
+}
+
+img:hover{
+   
+    height: 300px;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+    transition: 300ms;
 }
 
