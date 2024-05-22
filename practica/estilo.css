@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.enlace{
+  display: block;
+  background-color: steelblue;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-bottom: 3px solid #c2c2c2;
+}
+
+.form{
+  width: 80%;
+  margin: 30px auto;
+  background: #f2f2f2;
+  box-shadow: 0 0 rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+.form__title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input{
+  display: block;
+}
+
+input[type=text],[type=email]{
+  margin-bottom: 20px;
+  padding: 12px 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+
+}
+
+input[type=checkbox]{
+  display: inline;
+}
+
+input:focus{
+  background: steelblue;
+  
+}
+
+input::placeholder{
+  color: rgb(240, 248, 255);
+}
+input[type=checkbox]:checked + label{
+  color: blue;
+
+}
+
+/* disparar */
+
+.event{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 20px;
+  background: #ff0000;
+  color: azure;
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+.event:active{
+  padding: 50px;
+  transition: 300ms;
+  
+}
+
+#objetivo{
+  width: 100px;
+  height: 100px;
+  background-color: steelblue;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: 300ms;
+}
+#objetivo:target{
+  border-radius: 50px;
+  transform: translateX(900px);
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+h3:not(.title):not(:hover){
+  color: steelblue;
+}
+
+
+
